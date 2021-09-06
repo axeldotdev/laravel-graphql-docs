@@ -2,10 +2,10 @@
 
 namespace Axeldotdev\GraphqlDocs;
 
-use Spatie\LaravelPackageTools\Package;
-use Axeldotdev\GraphqlDocs\Commands\InstallCommand;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 use Axeldotdev\GraphqlDocs\Commands\GenerateTypesViews;
+use Axeldotdev\GraphqlDocs\Commands\InstallCommand;
+use Spatie\LaravelPackageTools\Package;
+use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class GraphqlDocsServiceProvider extends PackageServiceProvider
 {

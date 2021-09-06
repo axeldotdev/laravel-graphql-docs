@@ -2,10 +2,10 @@
 
 namespace Axeldotdev\GraphqlDocs\Commands;
 
-use Illuminate\Support\Str;
+use Axeldotdev\GraphqlDocs\GraphqlDocs;
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
-use Axeldotdev\GraphqlDocs\GraphqlDocs;
+use Illuminate\Support\Str;
 
 class GenerateTypesViews extends Command
 {

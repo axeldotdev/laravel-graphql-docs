@@ -53,6 +53,5 @@ class GraphqlDocsApplicationServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-
     }
 }

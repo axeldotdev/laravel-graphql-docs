@@ -2,9 +2,9 @@
 
 namespace Axeldotdev\LaravelGraphqlDocs\Tests;
 
+use Axeldotdev\LaravelGraphqlDocs\LaravelGraphqlDocsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Axeldotdev\LaravelGraphqlDocs\LaravelGraphqlDocsServiceProvider;
 
 class TestCase extends Orchestra
 {
